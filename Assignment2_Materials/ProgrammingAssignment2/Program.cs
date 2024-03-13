@@ -29,16 +29,43 @@ namespace ProgrammingAssignment2
 				// extract input values from string
 				BuildLinkedListFromString(input);
 
-				// Add your code between this comment
-				// and the comment below. You can of
-				// course add more space between the
-				// comments as needed
+                // Add your code between this comment
+                // and the comment below. You can of
+                // course add more space between the
+                // comments as needed
 
 
 
-				// Don't add or modify any code below
-				// this comment
-				input = Console.ReadLine();
+
+                //my code here
+                // code must call the GetValue method and store the int
+                // the method returns in a variable
+                //then process that number as appropriate
+                //solution must print the following on a single line
+
+                //The count of the numbers you processed (not including the -1)
+                //A space
+                //The mean of the numbers you processed (not including the -1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
 			}
 		}
 
