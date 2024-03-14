@@ -29,25 +29,36 @@ namespace ProgrammingAssignment2
 				// extract input values from string
 				BuildLinkedListFromString(input);
 
-                // Add your code between this comment
-                // and the comment below. You can of
-                // course add more space between the
-                // comments as needed
+				// Add your code between this comment
+				// and the comment below. You can of
+				// course add more space between the
+				// comments as needed
 
 
 
 
-                //my code here
-                // code must call the GetValue method and store the int
-                // the method returns in a variable
-                //then process that number as appropriate
-                //solution must print the following on a single line
+				//my code here
+				// code must call the GetValue method and store the int
+				// the method returns in a variable
+				//then process that number as appropriate
+				//solution must print the following on a single line
 
-                //The count of the numbers you processed (not including the -1)
-                //A space
-                //The mean of the numbers you processed (not including the -1)
-
-
+				//The count of the numbers you processed (not including the -1)
+				//A space
+				//The mean of the numbers you processed (not including the -1)
+				int value = GetValue(); 
+				int sum = 0;
+				int count = 0;
+                while (value != -1)
+				{
+					sum = sum+value;
+					count = count+1;
+					value = GetValue();
+					
+				}
+                Console.Write(count);
+                Console.Write(" ");
+                Console.WriteLine((float) sum / count);
 
 
 
