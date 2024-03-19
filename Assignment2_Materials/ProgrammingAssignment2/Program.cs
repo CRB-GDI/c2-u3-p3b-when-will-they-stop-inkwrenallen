@@ -36,9 +36,48 @@ namespace ProgrammingAssignment2
 
 
 
-				// Don't add or modify any code below
-				// this comment
-				input = Console.ReadLine();
+
+				//my code here
+				// code must call the GetValue method and store the int
+				// the method returns in a variable
+				//then process that number as appropriate
+				//solution must print the following on a single line
+
+				//The count of the numbers you processed (not including the -1)
+				//A space
+				//The mean of the numbers you processed (not including the -1)
+				int value = GetValue(); 
+				int sum = 0;
+				int count = 0;
+                while (value != -1)
+				{
+					sum = sum+value;
+					count = count+1;
+					value = GetValue();
+					
+				}
+				//end of while loop here
+				Console.Write(count);
+                Console.Write(" ");
+                Console.WriteLine((float) sum / count);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
 			}
 		}
 
