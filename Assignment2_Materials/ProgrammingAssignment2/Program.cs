@@ -56,7 +56,8 @@ namespace ProgrammingAssignment2
 					value = GetValue();
 					
 				}
-                Console.Write(count);
+				//end of while loop here
+				Console.Write(count);
                 Console.Write(" ");
                 Console.WriteLine((float) sum / count);
 
